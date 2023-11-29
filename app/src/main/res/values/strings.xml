@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculate BMI</string>
+    <string name="hintwt">Enter your weight</string>
+    <string name="hintfe">Enter your feet</string>
+    <string name="hintin">Enter your inches</string>
+    <string name="hintbutton">Calculate BMI</string>
+    <string name="calToast">Calculating BMI..</string>
+    <string name="register">Register</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="name">Name</string>
+    <string name="you_re_over_weighted">YOU\'RE OVER WEIGHTED</string>
+</resources>

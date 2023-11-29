@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical"
+    tools:context=".over">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolid"
+        app:title="OVER WEIGHTED"
+        app:titleTextColor="@color/white"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue" />
+
+    <ImageView
+        android:layout_width="429dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:padding="3dp"
+        android:src="@drawable/ow" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/you_re_over_weighted"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="center"/>
+</LinearLayout>

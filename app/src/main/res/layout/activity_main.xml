@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true">
+
+
+    <EditText
+        android:id="@+id/edtwt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_back"
+        android:drawableLeft="@drawable/baseline_directions_walk_24"
+        android:ems="10"
+        android:hint="@string/hintwt"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#0C0000"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/edthe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_back"
+        android:drawableLeft="@drawable/baseline_height_24"
+        android:ems="10"
+        android:hint="@string/hintfe"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#0C0000"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/edtin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_back"
+        android:drawableLeft="@drawable/baseline_pinch_24"
+        android:ems="10"
+        android:hint="@string/hintin"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#0C0000"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_btn"
+        android:onClick="onclick"
+        android:text="@string/hintbutton"
+        android:textAllCaps="true"
+        android:textColor="#090000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#090000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

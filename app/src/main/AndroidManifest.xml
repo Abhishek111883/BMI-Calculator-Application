@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_foreground"
+
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <activity
+            android:name=".per"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/noActionbar"/>
+        <activity
+            android:name=".under"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/noActionbar" />
+        <activity
+            android:name=".over"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/noActionbar" />
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:theme="@style/noActionbar" />
+        <activity
+            android:name=".Splashscreen"
+            android:exported="true"
+            android:theme="@style/noActionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

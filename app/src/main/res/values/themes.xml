@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/colorprimaryvarient</item>
+        <item name="colorAccent">@color/white</item>
+
+    </style>
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/custom_button_text_color</item>
+        <item name="android:background">@drawable/custom_button_background</item>
+    </style>
+
+    <style name="CustomAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:buttonBarButtonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+    <style name="noActionbar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/colorprimaryvarient</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+
+
+    <style name="Theme.CalculateBMI" parent="Theme.AppCompat.Light.DarkActionBar" />
+</resources>
